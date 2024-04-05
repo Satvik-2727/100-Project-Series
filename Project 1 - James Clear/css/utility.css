@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.list-style-none{
+    list-style-type: none;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.serif{
+    font-family: serif;
+}
+
+.camelcase{
+    text-transform: capitalize;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.weight-600{
+    font-weight: 600;
+}
