@@ -6,14 +6,13 @@ const Button = ({
   onHighlightColor = "blue-600",
   shadow = "none",
   href,
-  color = "black",
-  backgroundColor = "white",
+  color = "white",
   font = "bold",
 }) => {
   return (
     <a
       href={href}
-      className={`py-4 px-6 text-xl rounded-full flex text-${color} bg-${backgroundColor}  hover:text-${onHighlightColor} hover:cursor-pointer shadow-${shadow} hover:shadow-gray-700 transition-shadow hover:ease-in ease-out duration-300 text-sm font-${font} items-center`}
+      className={`py-4 px-6 text-xl rounded-full flex text-${color} bg-black hover:text-${onHighlightColor} hover:cursor-pointer shadow-${shadow} hover:shadow-gray-700 transition-shadow hover:ease-in ease-out duration-300 text-sm font-${font} items-center`}
     >
       {content}
     </a>
@@ -25,9 +24,7 @@ Button.propTypes = {
   onHighlightColor: PropTypes.string,
   shadow: PropTypes.string,
   href: PropTypes.string.isRequired,
-  color: PropTypes.string.isRequired,
-  backgroundColor: PropTypes.string,
-  svg: PropTypes.string,
+  color: PropTypes.string,
   font: PropTypes.string,
 };
 
