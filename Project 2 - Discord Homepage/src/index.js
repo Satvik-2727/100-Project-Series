@@ -39,21 +39,21 @@ export const NavbarContent = [
 
 export const MainContent = [
    {
-      image: "../../assets/where_you_belong.svg",
+      image: "../../assets/images/where_you_belong.svg",
       title: "Create an invite-only place where you belong",
       content: "Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.",
       // backgroundColor: "",
       // flex: ,
    },
    {
-      image: "../../assets/hanging_out_easy.svg",
+      image: "../../assets/images/hanging_out_easy.svg",
       title: "Where hanging out is easy",
       content: "Grab a seat in a voice channel when you're free. Friends in your server can see you're around and instantly pop in to talk without having to call.",
       backgroundColor: "gray-200",
       flex: "reverse",
    },
    {
-      image: "../../assets/from_few_to_a_fandom.svg",
+      image: "../../assets/images/from_few_to_a_fandom.svg",
       title: "From few to a fandom",
       content: "Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.",
       // backgroundColor: "",
@@ -63,7 +63,7 @@ export const MainContent = [
 
 export const BeforeFooter = [
    {
-      image: "../../assets/reliable_tech_for_staying_close.svg",
+      image: "../../assets/images/reliable_tech_for_staying_close.svg",
       title: "RELIABLE TECH FOR STAYING CLOSE",
       content: "Low-latency voice and video feels like you're in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.",
       backgroundColor: "gray-200",

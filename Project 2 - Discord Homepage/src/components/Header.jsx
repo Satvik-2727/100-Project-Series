@@ -39,8 +39,8 @@ const Header = ({ imageUrl }) => {
         </div>
       </div>
       <div className="hero_image">
-        <img src="../../assets/hero_home_image_2.svg" alt="" className="lg:absolute bottom-0 right-0 md:w-[30vw] w-0" />
-        <img src="../../assets/hero_home_image.svg" alt="" className="absolute bottom-0 left-0 md:w-[30vw]" />
+        <img src="../../assets/images/hero_home_image_2.svg" alt="" className="lg:absolute bottom-0 right-0 md:w-[30vw] w-0" />
+        <img src="../../assets/images/hero_home_image.svg" alt="" className="absolute bottom-0 left-0 md:w-[30vw]" />
       </div>
     </header>
   );

@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
-const hero_image = '../assets/hero_bg.svg'
+const hero_image = '../assets/images/hero_bg.svg'
 
 const App = () => {
   return (

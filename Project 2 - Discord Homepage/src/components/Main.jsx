@@ -26,7 +26,7 @@ const Main = () => {
         />
       ))}
       <div className="flex flex-col justify-center h-[30vh] items-center w-full">
-        <div className="bg-[url('../../assets/stars_imagine.svg')] h-1/3 bg-no-repeat md:w-[50vw] p-2 bg-contain flex justify-center items-center w-full">
+        <div className="bg-[url('../../assets/images/stars_imagine.svg')] h-1/3 bg-no-repeat md:w-[50vw] p-2 bg-contain flex justify-center items-center w-full">
           <div className="md:w-fit mt-28 flex flex-col items-center space-y-8 px-10">
             <div className="md:text-3xl font-bold w-full text-xl">
               Ready to Start your journey?

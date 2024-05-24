@@ -16,7 +16,7 @@ const Navbar = () => {
       <nav className="mt-5 md:w-2/3 lg:w-2/3 w-full">
         <ul className="flex justify-evenly items-center">
           <div>
-            <img src="../../assets/discord_logo.svg" className="w-36" alt="Discord Logo" />
+            <img src="../../assets/icons/discord_logo.svg" className="w-36" alt="Discord" />
           </div>
           <div className="md:opacity-100 lg:opacity-100 opacity-0 flex text-base space-x-10 text-white font-semibold w-0 md:w-fit lg:w-fit">
             {NavbarContent.map((item, index) => (
@@ -34,7 +34,7 @@ const Navbar = () => {
           </div>
           <div className="md:opacity-0 lg:opacity-0 opacity-100">
             <img
-              src="../../assets/hamburger.svg"
+              src="../../assets/icons/hamburger.svg"
               alt="Hamburger Menu"
               className="cursor-pointer"
               onClick={toggleHamburger}
@@ -48,7 +48,7 @@ const Navbar = () => {
         } overflow-hidden shadow-lg`}
       >
         <div className="flex justify-between items-center p-5">
-          <img src="../../assets/discord_logo.svg" className="w-28 invert" alt="Discord Logo" />
+          <img src="../../assets/icons/discord_logo.svg" className="w-28 invert" alt="Discord Logo" />
           <button onClick={toggleHamburger} className="text-3xl">
             &times; 
           </button>
