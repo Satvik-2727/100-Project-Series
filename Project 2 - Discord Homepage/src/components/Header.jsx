@@ -28,11 +28,11 @@ const Header = ({ imageUrl }) => {
           </div>
           <div className="btns">
             <div className="lg:flex lg:flex-row flex-col lg:space-y-0 lg:space-x-4 space-y-5 w-fit">
-              <DownloadButton content="Download for Windows" shadow="xl" />
+              <DownloadButton content="Download for Windows" shadow="lg" />
               <Button
                 content="Open Discord in your browser"
                 font="medium"
-                shadow="xl"
+                shadow="lg"
               />
             </div>
           </div>

@@ -12,7 +12,7 @@ const Button = ({
   return (
     <a
       href={href}
-      className={`py-4 px-6 text-xl rounded-full flex text-${color} bg-black hover:text-${onHighlightColor} hover:cursor-pointer shadow-${shadow} hover:shadow-gray-700 transition-shadow hover:ease-in ease-out duration-300 text-sm font-${font} items-center`}
+      className={`py-4 px-6 text-xl rounded-full flex text-${color} bg-black hover:text-${onHighlightColor} hover:bg-[#23272a] hover:cursor-pointer shadow-${shadow} hover:shadow-gray-700 transition-all hover:ease-in ease-out duration-300 text-sm font-${font} items-center`}
     >
       {content}
     </a>
